@@ -1,11 +1,11 @@
-const fs = require('fs')
-const webpack = require('webpack')
+// const fs = require('fs')
+// const webpack = require('webpack')
 
-const packageJSON = fs.readFileSync('./package.json')
-const version = JSON.parse(packageJSON).version || 0
+// const packageJSON = fs.readFileSync('./package.json')
+// const version = JSON.parse(packageJSON).version || 0
 
 module.exports = {
-  publicPath: process.env.NODE_ENV === 'production' ? '/uploadToS3/' : '/',
+  // publicPath: process.env.NODE_ENV === 'production' ? '/uploadToS3/' : '/',
   outputDir: 'docs',
   // configureWebpack: {
   //   plugins: [
